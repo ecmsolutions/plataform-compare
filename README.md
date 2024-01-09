@@ -49,6 +49,26 @@
 
 ![github-bin-repo](assets/github-bin-repo.jpg)
 
+## Image Registry
+
+- GitLab
+
+![github-registry](assets/gitlab-registry.jpg)
+
+- Github
+
+![github-registry](assets/github-registry.jpg)
+
+## Project Management
+
+- GitLab
+
+![github-project-mgnt](assets/gitlab-project-mgnt.jpg)
+
+- Github
+
+![github-project-mgnt](assets/github-project-mgnt.jpg)
+
 ## Wiki
 
 ### Diagrams
