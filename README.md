@@ -9,7 +9,7 @@
 | Binary Repository  | Packages          | Package       | ---                  | Artifactory |
 | Image Registry     | Packages          | Registry      | ---                  | ---         |
 | Project Management | Projects / Issues | Plan / Issues | Plan / Issues        | Mantis      |
-| Wiki               | Wiki              | Wiki          | Wiki                 | ---         |
+| [Wiki](#diagrams)  | Wiki              | Wiki          | Wiki                 | ---         |
 
 ## Restrictions
 
@@ -19,9 +19,33 @@
 | Users                | Unlimited     | 5 users/group | Unlimited            | ---     |
 | Runners              | ---           | 400 min/month | ---                  | Jenkins |
 
-## Diagrams
+## SCM
 
-### ER
+ - GitLab
+
+![gitlab-scm](assets/gitlab-scm.jpg)
+
+ - Github
+
+![github-scm](assets/github-scm.jpg)
+
+## CI/CD
+
+ - GitLab
+
+ - Github
+
+## Binary Repository
+
+ - GitLab
+
+ - Github
+
+## Wiki
+
+### Diagrams
+
+#### ER
 
 ```mermaid
 ---
@@ -46,12 +70,13 @@ erDiagram
     }
 ```
 
-### Sequence
+#### Sequence
 
 ```mermaid
 sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    John-->>Alice: Great!
-    Alice-)John: See you later!
+    Frontend->>Apigateway: GET /o
+    Apigateway->>Orders: GET /orders
+    Orders->>MongoDB: find()
+    MongoDB-->>Frontend: orders found
 ```
 
