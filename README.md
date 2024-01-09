@@ -19,3 +19,16 @@
 | Users                | Unlimited     | 5 users/group | Unlimited            | ---     |
 | Runners              | ---           | 400 min/month | ---                  | Jenkins |
 
+## Diagrams
+
+### ER
+
+```mermaid
+---
+title: Orders Model
+---
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+```
