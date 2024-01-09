@@ -2,14 +2,14 @@
 
 ## Features
 
-|                    | Github (SaaS)     | GitLab (SaaS) | GitLab (Self-hosted) | Current     |
-|--------------------|-------------------|---------------|----------------------|-------------|
-| SCM                | Git               | Git           | Git                  | SVN         |
-| CI/CD              | Actions           | CI/CD         | ---                  | Jenkins     |
-| Binary Repository  | Packages          | Package       | ---                  | Artifactory |
-| Image Registry     | Packages          | Registry      | ---                  | ---         |
-| Project Management | Projects / Issues | Plan / Issues | Plan / Issues        | Mantis      |
-| [Wiki](#diagrams)  | Wiki              | Wiki          | Wiki                 | ---         |
+|                                           | Github (SaaS)     | GitLab (SaaS) | GitLab (Self-hosted) | Current     |
+|-------------------------------------------|-------------------|---------------|----------------------|-------------|
+| [SCM](#scm)                               | Git               | Git           | Git                  | SVN         |
+| [CI/CD](#ci_cd)                           | Actions           | CI/CD         | ---                  | Jenkins     |
+| [Binary Repository](#binary_repository)   | Packages          | Package       | ---                  | Artifactory |
+| [Image Registry](#image_registry)         | Packages          | Registry      | ---                  | ---         |
+| [Project Management](#project_management) | Projects / Issues | Plan / Issues | Plan / Issues        | Mantis      |
+| [Wiki](#diagrams)                         | Wiki              | Wiki          | Wiki                 | ---         |
 
 ## Restrictions
 
@@ -33,13 +33,21 @@
 
  - GitLab
 
+![gitlab-cicd](assets/gitlab-cicd.jpg)
+
  - Github
+
+![github-cicd](assets/github-cicd.jpg)
 
 ## Binary Repository
 
  - GitLab
 
+![github-bin-repo](assets/gitlab-bin-repo.jpg)
+
  - Github
+
+![github-bin-repo](assets/github-bin-repo.jpg)
 
 ## Wiki
 
