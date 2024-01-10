@@ -43,7 +43,7 @@
 
  - GitLab
 
-![github-bin-repo](assets/gitlab-bin-repo.jpg)
+![gitlab-bin-repo](assets/gitlab-bin-repo.jpg)
 
  - Github
 
@@ -53,7 +53,7 @@
 
 - GitLab
 
-![github-registry](assets/gitlab-registry.jpg)
+![gitlab-registry](assets/gitlab-registry.jpg)
 
 - Github
 
@@ -63,7 +63,7 @@
 
 - GitLab
 
-![github-project-mgnt](assets/gitlab-project-mgnt.jpg)
+![gitlab-project-mgnt](assets/gitlab-project-mgnt.jpg)
 
 - Github
 
