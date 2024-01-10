@@ -7,7 +7,7 @@
 | [SCM](#scm)                               | Git               | Git           | Git                  | SVN         |
 | [CI/CD](#ci_cd)                           | Actions           | CI/CD         | ---                  | Jenkins     |
 | [Binary Repository](#binary_repository)   | Packages          | Package       | ---                  | Artifactory |
-| [Image Registry](#image_registry)         | Packages          | Registry      | ---                  | ---         |
+| Image Registry                            | Packages          | Registry      | ---                  | ---         |
 | [Project Management](#project_management) | Projects / Issues | Plan / Issues | Plan / Issues        | Mantis      |
 | [Wiki](#diagrams)                         | Wiki              | Wiki          | Wiki                 | ---         |
 
@@ -48,16 +48,6 @@
  - Github
 
 ![github-bin-repo](assets/github-bin-repo.jpg)
-
-## Image Registry
-
-- GitLab
-
-![gitlab-registry](assets/gitlab-registry.jpg)
-
-- Github
-
-![github-registry](assets/github-registry.jpg)
 
 ## Project Management
 
